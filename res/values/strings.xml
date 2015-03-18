@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">25Phone QC form</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_page1">Page1</string>
+    <string name="title_activity_phone_page2">Phone_page2</string>
+    <string name="feedbacktype">string value missing</string>
+    <string name="title_activity_page3_qc">Page3_qc</string>
+    <string name="title_activity_page4_qc">Page4_qc</string>
+    <string name="title_activity_page5_qc">Page5_qc</string>
+    <string name="title_activity_page6_qc">Page6_qc</string>
+
+</resources>

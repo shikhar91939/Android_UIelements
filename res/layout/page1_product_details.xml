@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        
+        <TextView
+	    android:id="@+id/tv_Heading"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Product Details"
+	    android:layout_gravity="center_horizontal"
+	    android:textSize="25dp">
+		</TextView>
+		
+        <Spinner
+	    android:id="@+id/Spinner_manufacturer"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:prompt="@string/feedbacktype"
+	    android:layout_width="fill_parent"
+	    android:entries="@array/feedbacktypelist">
+		</Spinner>
+		
+        <!-- name and model  -->
+        <TextView
+	    android:id="@+id/tv_model"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:text="Name and Model"
+	    android:textSize="14dp"> 
+		</TextView>
+        <EditText
+	    android:id="@+id/EditText_modelNumber"
+	    android:layout_height="wrap_content"
+	    android:hint="Canvas Duet 2 EG111"
+	    android:inputType="textPersonName|number"
+	    android:layout_width="fill_parent">
+	    </EditText>
+	    
+        <!-- Colour -->
+        <TextView
+	    android:id="@+id/tv_colour"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Colour"
+	    android:textSize="18dp"> 
+		</TextView>
+		<Spinner
+	    android:id="@+id/Spinner_colour"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:prompt="@string/feedbacktype"
+	    android:entries="@array/colourList">
+		</Spinner> 
+		<Spinner
+	    android:id="@+id/Spinner_secColour"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:prompt="@string/feedbacktype"
+	    android:entries="@array/secColourList">
+		</Spinner> 
+        
+		<!-- IMEI -->
+		 <TextView
+	    android:id="@+id/tv_imeiHeading"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="IMEI"
+	    android:textSize="18dp"> 
+		</TextView>
+		 <TextView
+	    android:id="@+id/tv_imei"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:text="IMEI on product"
+	    android:textSize="14dp"> 
+		</TextView>
+		<EditText
+	    android:id="@+id/EditText_EMEI"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent">	    
+	    android:hint=""
+	    android:inputType="textPersonName|number"
+	    </EditText>
+	    <CheckBox 
+	        android:id="@+id/checkBox_imei"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Matches with IMEI on package">
+		</CheckBox>
+		
+	    
+		<!-- sim: single/double -->
+		 <TextView
+	    android:id="@+id/tv_simHeading"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="SIM"
+	    android:textSize="18dp">
+	    </TextView>
+	    <CheckBox 
+	        android:id="@+id/checkBox_singleSim"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Single SIM">
+		</CheckBox>
+		<CheckBox 
+	        android:id="@+id/checkBox_dualSim"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Dual SIM">
+		</CheckBox>
+		
+		
+		<Spinner
+	    android:id="@+id/Spinner_simType"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:prompt="@string/feedbacktype"
+	    android:entries="@array/simType"> 
+		</Spinner>
+		 
+		
+		
+	    <Button
+    android:id="@+id/ar2_next_btn"
+    android:layout_width="220dp"
+    android:layout_height="60dp"
+     android:layout_marginTop="35dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="12dp"
+    android:onClick="onClick_next"
+    android:text="NEXT"
+    android:textSize="20sp"
+    android:visibility="visible" />
+    </LinearLayout>
+</ScrollView>

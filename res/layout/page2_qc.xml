@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        
+    	<!-- Heading -->
+    	<TextView
+	    android:id="@+id/tv_bodyHeading"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Body"
+	    android:layout_gravity="center_horizontal"
+	    android:textSize="25dp">
+		</TextView>
+		
+    	<!-- scratches -->
+		<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Tick the sides that have scratches">
+	    </TextView>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="A"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="B"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="C"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="D"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="E"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="F"/>
+    	 <EditText
+	    android:layout_height="wrap_content"
+	    android:hint="comment"
+	    android:inputType="text"
+	    android:layout_width="fill_parent">
+	    </EditText>
+		   
+    	
+    	<!-- power on test -->
+    	<TextView 
+    	   android:text="2. Power on"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Device correctly powers on without the charger connected"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Battery recieves charge when charger is connected"/>
+    	
+    	<!-- Camera -->
+    	<TextView 
+    	   android:text="3. Camera"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Back camera working"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Front camera working"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Camera Flash Functions"/>
+    	
+    	
+    	<Button
+    android:id="@+id/ar2_next_btn"
+    android:layout_width="220dp"
+    android:layout_height="60dp"
+     android:layout_marginTop="35dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="12dp"
+    android:onClick="onClick_next"
+    android:text="NEXT"
+    android:textSize="20sp"
+    android:visibility="visible" /> 
+    	
+    	
+    </LinearLayout>
+</ScrollView>

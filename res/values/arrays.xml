@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string-array name="feedbacktypelist">
+        <item>--Choose brand--</item>        
+        <item>Karbonn</item>
+        <item>NOKIA</item>
+        <item>Sony</item>
+   		<item>Micromax</item>
+        <item>Karbonn</item>
+        <item>Samsung</item>  
+    </string-array>
+    
+     <string-array name="colourList">
+        <item>--Choose Colour--</item>
+        <item>Black</item>
+        <item>White</item>
+   		<item>Grey</item>
+        <item>Blue</item>
+    </string-array> 
+    
+   <string-array name="secColourList">
+        <item>--Optional secondary colour--</item>
+        <item>Black</item>
+        <item>White</item>
+   		<item>Grey</item>
+        <item>Blue</item>
+       </string-array>
+       
+   <string-array name="simType">
+        <item>--Choose SIM type--</item>
+        <item>GSM</item>
+        <item>CDMA</item>
+   		<item>GSM + GSM</item>
+        <item>GSM + CDMA</item>
+        <item>CDMA + CDMA</item>
+       </string-array>
+       
+   <string-array name="QcConditions">
+        <item>--QC Status--</item>
+        <item>Unboxed</item>
+        <item>Refurbished</item>
+   		<item>Send to service centre</item>
+        <item>Beyond economic repair</item>
+        <item>Sealed</item>
+    </string-array> 
+</resources>

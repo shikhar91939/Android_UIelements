@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        
+    	<!-- heading -->
+    	<TextView
+	    android:id="@+id/tv_bodyHeading"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Functionality"
+	    android:layout_gravity="center_horizontal"
+	    android:textSize="25dp">
+		</TextView>
+		
+    	<!-- Display and Touch test -->
+    	<TextView 
+    	   android:text="4. Display and Touch test"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Display has all pixels functioning correctly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="LEDs if present must be working properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Touch functions properly for all parts of the screen"/>
+    
+    	
+    	<!-- Key Test -->
+    	<TextView 
+    	   android:text="5. Key test"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="All buttons function properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="All side keys function properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Keypad backlight functions"/>
+    	
+    	<!-- Sound test -->
+    	<TextView 
+    	   android:text="6. Sound test"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Loudspeaker function properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Ringer functions properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Microphone functions properly (voice recording)"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Headset jack functions properly"/>
+    	
+    	<!-- Call test -->
+    	<TextView 
+    	   android:text="7. Call test"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Makes calls"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Recieves calls"/>
+    	
+    	<!-- Ports & Clips -->
+    	<TextView 
+    	   android:text="8. Ports and Clips"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="No port Corrosion or Water Damage"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Data Port Functions"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="SIM holder must work properly"/>
+    	<CheckBox 
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="SD card holder must work properly"/>
+    	
+    	 
+    	
+    	<Button
+		    android:id="@+id/ar2_next_btn"
+		    android:layout_width="220dp"
+		    android:layout_height="60dp"
+		    android:layout_marginTop="35dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="12dp"
+		    android:onClick="onClick_next"
+		    android:text="NEXT"
+		    android:textSize="20sp"
+		    android:visibility="visible" /> 
+    </LinearLayout>
+</ScrollView>
